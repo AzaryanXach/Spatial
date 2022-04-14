@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#D2CFCE;
+}
+.fon1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    font-family: 'Georama', sans-serif;
+}
+li{
+    margin: 0 35px;
+    text-decoration: none;
+    font-family: 'Georama', sans-serif;
+    font-size: 20px;
+}
+.menu a:hover{
+    background-color: #D2CFCE;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+   }
+#nav{
+    display: center;
+    padding: center;
+    text-align: center;
+    align-items: center;
+    margin: auto ;*/
+}
+
+.li-a{
+    text-decoration: none;
+    color: white;
+}
+
+.getstart{
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+}
+
+
+.hdr-1{
+    padding: 15px 100px;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.hdr-h2{
+    color: white;
+}
+.hdr-h3{
+    color: white;
+}
+
+h1{
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin:0px;
+}
+.lor{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+.butn-1 {
+
+    width: 201px;
+    height: 33px;
+    background: white;
+    border-radius: 35px;
+    font-size: 13px;
+    border: none;
+    color: black;
+}
+.a2{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.a2 span{
+    font-family: cursive;
+    color:white ;
+    font-size: 20px;
+}
+.butn-1:hover{
+    background-color: #D2CFCE;
+    cursor: pointer;
+}
+#nav {
+    position: sticky;
+    top: 0;/*
+    background-color: #fff;*/
+    z-index: 100;
+}
+.menu {
+    position: relative;
+}
+.fon2{
+    display: center;  
+}
+.a1{
+
+    background-image: url("img/GARDEN.jpg");
+    display: block;
+}
+h2{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.cn1{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.cn1 div:hover{
+    transform: scale(1.02, 1.02);
+    transition: .2s all .0s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.cn1 div{
+    background-color: white;
+    margin: 35px;
+    padding: 15px;
+    width: 500px;
+    height: 480px;
+}
+.cn1 img{
+     width: 470px;
+     height: 300px;
+}
+.cn1 span{
+    font-size: 20px;
+}
+.mc{
+    font-size: 30px;
+    margin: 0px;
+}
+.mc sub{
+    font-size: 10px;
+}
+
+.vt{
+    display: flex;
+    justify-content: center;
+}
+.rt{
+    background-color: white;
+    margin: 35px 20px;
+    border: 0px solid black;
+    width: 530px;
+    height: 475px;
+ 
+}
+.rt1 img{
+    width: 70px;
+    margin-top: 4px;
+}
+.t{
+     display: flex;
+}
+
+.rt1{
+  width: 70px;
+}
+.rt2{
+    padding-left: 18px;
+}
+.rt2 span{
+    font-size: 20px;
+}
+.rt2 p{
+    margin-top: 7px;
+}
+.sum1{
+    display: flex;
+   
+}
+.sum1 div{
+    margin-right: 10px;
+}
+.sum span{
+    font-size: 35px;
+}
+.sum p{
+    font-size: 15px;
+    margin: 0px;
+}
+.lt{
+    margin: 35px 20px;
+    width: 530px;
+    height: 475px;
+}
+.lt img{
+    height: 475px;
+}
+.btm{
+    width: 100%;
+    height: 60px;
+    background-color: #7FBD0D;
+    padding: 4px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.btm img{
+    margin-top:18px ;    
+    width: 20px;
+    height: 20px;
+}
+.btm button{
+    margin-top:9px ; 
+}
+.mrg{
+    margin-right: 15px;
+}
+.reg{
+    display: flex;
+    justify-content: space-between;
+}
